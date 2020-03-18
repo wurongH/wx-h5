@@ -3,12 +3,12 @@
 .btn-music {
     width: 2rem;
     height: 2rem;
-    background-color: transparent;
+    background-color: #aaa;
     position: fixed;
     top: 1.5rem;
     right: 1.5rem;
     z-index: 999;
-    border: 0.125rem solid #fff;
+    border: 0.125rem solid #aaa;
     border-radius: 50%;
     padding: 0;
     animation: btnMusicAni 3s infinite linear;

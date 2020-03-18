@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Wechat H5 Boilerplate</title>
+    <title>世界水日-3.22</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!-- Add your keywords and description here for SEO. -->
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 
     <!-- Uncomment this if you need apple touch icon. -->
-    <!--
+<!--     
     <link rel="apple-touch-icon" href="touch-icon-iphone.png">
     <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
@@ -30,18 +30,31 @@
 
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide slide-1">
-            <div class="item-image animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">I'm a coder!</p>
-        </div>
-        <div class="swiper-slide slide-2">
+        <section class="swiper-slide slide-1">
+            <div class="item-bgu animated" data-ani-name="zoomIn" data-ani-duration="2s" data-ani-delay="0.4s">
+                <img class="bguImg" src="images/bgu.png">
+            </div>
+            <div class="item-title animated" data-ani-name="zoomIn" data-ani-duration="2s" data-ani-delay="0.4s"></div>
+            <div class="item-stitle animated" data-ani-name="bounceInDown" data-ani-duration="2s" data-ani-delay="0.4s"></div>     
+            <div class="item-parag animated" data-ani-name="bounceInDown" data-ani-duration="2s" data-ani-delay="0.4s"></div>   
+            <div class="item-faucet animated" data-ani-name="slideInDown" data-ani-duration="2s" data-ani-delay="0.4s"></div>    
+            <div class="item-holding animated" data-ani-name="fadeInUp"  data-ani-duration="2s" data-ani-delay="0.4s"></div>                                          
+        </section>
+        <section class="swiper-slide slide-2">
             <div class="item-image animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s">I'm a frontend developer!</p>
-        </div>
-        <div class="swiper-slide slide-3">
+        </section>
+        <section class="swiper-slide slide-3">
             <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
-            <p class="item-text animated" data-ani-name="flipInY" data-ani-duration="1s" data-ani-delay="0.3s">I'm a javascript newbie!</p>
-        </div>
+        </section>    
+        <section class="swiper-slide slide-4">
+            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
+        </section>     
+        <section class="swiper-slide slide-5">
+            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
+        </section>  
+        <section class="swiper-slide slide-6">
+            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
+        </section>                                         
     </div>
 </div>
 
@@ -54,7 +67,7 @@
 </button>
 
 <audio loop>
-    <source src="audios/background.mp3" type="audio/mpeg">
+    <source src="audios/background.mp3" type="audio/mpeg" autopaly>
 </audio>
 
 <!-- Don't delete this. It's needed for development workflow. -->

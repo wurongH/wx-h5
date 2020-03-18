@@ -1,28 +1,85 @@
 .slide-1 {
-    background-color: #e88a63;
-    .item-image {
+    // background: url('../../images/bgu.png') center no-repeat;
+    // background-size: 116% 102%;
+    .item-bgu {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        .bguImg {
+            display: block;
+            width: 116%;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);          
+        }
+    }
+    .item-title {
         width: 18rem;
         height: 18rem;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        top: 4rem;
+        top: 3.2rem;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../images/github-1.png');
+        background-image: url('../../images/世界水日.png');
     }
-    .item-text {
+    .item-stitle {
         width: 18rem;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: bold;
+        height: 18rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
         position: absolute;
-        top: 24rem;
+        top: 7.2rem;
         left: 0;
         right: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
+        margin: auto;
+        background-image: url('../../images/依法管水.png');
+    }    
+    .item-parag {
+        width: 18rem;
+        height: 18rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 9.8rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url('../../images/水是生命之源.png');
+    } 
+    .item-faucet {
+        width: 18rem;
+        height: 22rem;
+        background-position: center;
+        background-size: 110% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 2;
+        top: 21.4rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url('../../images/节约用水.png');
+    }   
+    .item-holding {
+        width: 21.6rem;
+        height: 9rem;
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 36.6rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url('../../images/托着.png');
+    }        
 }
