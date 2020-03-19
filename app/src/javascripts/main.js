@@ -23,12 +23,12 @@
 
         // init Swiper
         new Swiper('.swiper-container', {
-            mousewheelControl: true,
-            effect: 'coverflow',    // slide, fade, coverflow or flip
+            mousewheelControl: false,
+            effect: '',    // slide, fade, coverflow or flip
             speed: 400,
             direction: 'vertical',
             fade: {
-                crossFade: false
+                crossFade: true
             },
             coverflow: {
                 rotate: 100,
@@ -39,7 +39,7 @@
             },
             flip: {
                 limitRotation: true,
-                slideShadows: false     // do disable shadows for better performance
+                slideShadows: true     // do disable shadows for better performance
             },
             onInit: function (swiper) {
                 animationControl.initAnimationItems();  // get items ready for animations
@@ -63,6 +63,6 @@
         });
 
         // hide loading animation since everything is ready
-        $('.loading-overlay').slideUp();
+        $('.loading-overlay').slideUp(800);
     });
 })();

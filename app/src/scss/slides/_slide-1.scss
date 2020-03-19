@@ -1,6 +1,7 @@
 .slide-1 {
     // background: url('../../images/bgu.png') center no-repeat;
     // background-size: 116% 102%;
+    opacity: 0.8;
     .item-bgu {
         width: 100%;
         height: 100%;
@@ -43,13 +44,13 @@
         background-image: url('../../images/依法管水.png');
     }    
     .item-parag {
-        width: 18rem;
-        height: 18rem;
+        width: 15rem;
+        height: 15rem;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        top: 9.8rem;
+        top: 10.8rem;
         left: 0;
         right: 0;
         margin: auto;
@@ -81,5 +82,94 @@
         right: 0;
         margin: auto;
         background-image: url('../../images/托着.png');
-    }        
+    }  
+    .item-love {
+        width: 2.8rem;
+        height: 4.6rem;
+        position: absolute;
+        top: 32%;
+        left: 6%;
+        opacity: 0;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        animation: onedown 6s linear infinite 2s;
+
+    }    
+    .item-saving {
+        width: 2.8rem;
+        height: 4.6rem;
+        position: absolute;
+        top: 40%;
+        left: 22%;
+        opacity: 0;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        animation: twodown 6s linear infinite 2s;
+    } 
+    .item-cherish {
+        width: 2.8rem;
+        height: 4.6rem;
+        position: absolute;
+        top: 49%;
+        right: 16%;
+        opacity: 0;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        animation: threedown 6s linear infinite 2s;
+    } 
+
+
+
+
+
+    
+    @keyframes onedown {  
+	
+        0% {
+          top: 32%;
+          opacity: 0;
+        }
+        100% {
+          top: 38%;
+          opacity: 1
+        }
+    }
+    @keyframes twodown {  
+	
+        0% {
+          top: 36%;
+          opacity: 0;
+        }
+        100% {
+          top: 45%;
+          opacity: 1
+        }
+    }
+    @keyframes threedown {  
+	
+        0% {
+          top: 46%;
+          opacity: 0;
+        }
+        100% {
+          top: 54%;
+          opacity: 1
+        }
+    }
+
+
+
+
+
+
+
+
+
+
 }

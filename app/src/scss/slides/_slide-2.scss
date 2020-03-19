@@ -1,29 +1,74 @@
 .slide-2 {
-    background: url('../../images/bgu.png') center no-repeat;
-    background-size: 116% 102%;
-    .item-image {
+    .item-bgu {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        .bguImg {
+            display: block;
+            width: 116%;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);          
+        }
+    }
+    .item-bird {
+        width: 14rem;
+        height: 14rem;
+        background-position: center left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 3.8rem;
+        left: 0;
+        right: 0;
+        background-image: url('../../images/飞鸟.png');
+    }
+    .item-boy {
+        width: 8.8rem;
+        height: 8.8rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 13rem;
+        left: 2.6rem;
+        background-image: url('../../images/小男孩.png');
+    }
+    .item-wordDay {
+        width: 12rem;
+        height: 12rem;
+        background-position:center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 9.6rem;
+        right: 0.4rem;
+        background-image: url('../../images/世界水日2.png');
+    }
+    .item-title {
         width: 18rem;
         height: 18rem;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        top: 4rem;
+        top: 20rem;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../images/github-2.png');
+        background-image: url('../../images/大段文字.png');
     }
-    .item-text {
-        width: 18rem;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: bold;
-        position: absolute;
-        top: 24rem;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        text-align: center;
-    }
+
+
+
+
+
+
+
+
+
+
 }
