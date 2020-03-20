@@ -1,87 +1,94 @@
 .slide-1 {
-    // background: url('../../images/bgu.png') center no-repeat;
-    // background-size: 116% 102%;
+    width: 100%;
+    height: 100%;
     opacity: 0.8;
+    position: relative;
     .item-bgu {
         width: 100%;
         height: 100%;
         position: relative;
         overflow: hidden;
-        .bguImg {
+        >img {
             display: block;
             width: 116%;
-            height: 100%;
+            height: 110%;
             position: absolute;
-            top: 50%;
+            top: 48%;
             left: 50%;
             transform: translate(-50%, -50%);          
         }
     }
     .item-title {
-        width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+        width: 16.6rem;
+        height: 6rem;
         position: absolute;
-        top: 3.2rem;
+        top: 13.2%;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../../images/世界水日.png');
+        >img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
     }
     .item-stitle {
         width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+        height: 1rem;
         position: absolute;
-        top: 7.2rem;
+        top: 27.6%;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../../images/依法管水.png');
+        >img {
+            display: block;
+            width: 100%;
+            height: 100%;            
+        }
     }    
     .item-parag {
-        width: 15rem;
-        height: 15rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+        width: 16rem;
+        height: 2rem;
         position: absolute;
-        top: 10.8rem;
+        top: 31.2%;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../../images/水是生命之源.png');
+        >img {
+            display: block;
+            width: 100%;
+            height: 100%;   
+        }
+
     } 
     .item-faucet {
-        width: 18rem;
-        height: 22rem;
-        background-position: center;
-        background-size: 110% 100%;
-        background-repeat: no-repeat;
+        width: 22rem;
+        height: 23.2rem;
         position: absolute;
-        z-index: 2;
-        top: 21.4rem;
+        top: 37.2%;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../../images/节约用水.png');
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
     }   
     .item-holding {
-        width: 21.6rem;
-        height: 9rem;
-        background-position: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+        width: 19.8rem;
+        height: 9.8rem;
+        color: #676767;
         position: absolute;
-        top: 36.6rem;
-        left: 0;
+        top: 70%;
+        left: -2.6rem;
         right: 0;
         margin: auto;
-        background-image: url('../../images/托着.png');
+        img {
+            display: block;
+            width: 110%;
+            height: 110%;
+        }
     }  
     .item-love {
         width: 2.8rem;
@@ -91,11 +98,11 @@
         left: 6%;
         opacity: 0;
         img {
+            display: block;
             width: 100%;
             height: 100%;
         }
         animation: onedown 6s linear infinite 2s;
-
     }    
     .item-saving {
         width: 2.8rem;
@@ -105,6 +112,7 @@
         left: 22%;
         opacity: 0;
         img {
+            display: block;
             width: 100%;
             height: 100%;
         }
@@ -114,23 +122,31 @@
         width: 2.8rem;
         height: 4.6rem;
         position: absolute;
-        top: 49%;
+        top: 44.6%;
         right: 16%;
         opacity: 0;
         img {
+            display: block;
             width: 100%;
             height: 100%;
         }
         animation: threedown 6s linear infinite 2s;
     } 
-
-
-
-
-
+    .item-mian {
+        font-size: 1.8rem;
+        width: 18rem;
+        height: 4.6rem;
+        text-align: center;
+        color: rgb(15, 25, 27);
+        position: absolute;
+        bottom: 17%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-shadow:0px 0px 0px #5db0d3,1px 1px 0px #9eb8c4,2px 2px 0px #4679a8;
+    } 
     
     @keyframes onedown {  
-	
         0% {
           top: 32%;
           opacity: 0;
@@ -140,8 +156,7 @@
           opacity: 1
         }
     }
-    @keyframes twodown {  
-	
+    @keyframes twodown {  	
         0% {
           top: 36%;
           opacity: 0;
@@ -151,25 +166,14 @@
           opacity: 1
         }
     }
-    @keyframes threedown {  
-	
+    @keyframes threedown {  	
         0% {
-          top: 46%;
+          top: 44.6%;
           opacity: 0;
         }
         100% {
-          top: 54%;
+          top: 50%;
           opacity: 1
         }
     }
-
-
-
-
-
-
-
-
-
-
 }

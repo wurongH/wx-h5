@@ -1,44 +1,108 @@
 .slide-6 {
+    width: 100%;
+    height: 100%;
+    position: relative;
     .item-bgu {
         width: 100%;
         height: 100%;
         position: relative;
         overflow: hidden;
-        .bguImg {
+        >img {
             display: block;
-            width: 110%;
-            height: 100%;
+            width: 116%;
+            height: 110%;
             position: absolute;
-            top: 50%;
+            top: 48%;
             left: 50%;
             transform: translate(-50%, -50%);          
         }
     }
     .item-wordWater {
         width: 18rem;
-        height: 18rem;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
+        height: 8rem;
         position: absolute;
-        top: 5.6rem;
+        top: 13.6%;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../../images/世界水日6.png');
+        >img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
     }
     .item-waterBg {
-        width: 80%;
+        width: 86%;
         height: 80%;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
         position: absolute;
-        top: 5.6rem;
+        top: 12%;
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../../images/水滴背景.png');
+        >img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
     }
+    .item-ball {
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        top: 36%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        >img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        animation: jump 2s ease-out infinite 2s;
+    }
+    .item-href {
+        font-size: 1.3rem;
+        width: 18rem;
+        height: 4.6rem;
+        font-weight: 530;
+        text-align: center;
+        position: absolute;
+        bottom: 23%;
+        text-decoration: underline;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: #56717c;
+        text-shadow:0px 0px 2px #5dadcf;
+    } 
+    .item-mian {
+        font-size: 1.8rem;
+        width: 18rem;
+        height: 4.6rem;
+        text-align: center;
+        color: rgb(15, 25, 27);
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-shadow:0px 0px 0px #5db0d3,1px 1px 0px #9eb8c4,2px 2px 0px #4679a8;
+    } 
+    
+
+    @keyframes jump {  
+	
+       from { transform: scale3d(1, 1, 1); }
+       30% { transform: scale3d(1.25, 0.75, 1); }
+       40% { transform: scale3d(0.75, 1.25, 1); }
+       50% { transform: scale3d(1.15, 0.85, 1); }
+       65% { transform: scale3d(0.95, 1.05, 1); }
+       75% { transform: scale3d(1.05, 0.95, 1); }
+       to { transform: scale3d(1, 1, 1); }
+
+    }
+
+
+
 
 }
