@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.other_main {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: none;
+  position: relative;
+  >p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(45, 48, 53);
+    margin: 0.6rem 0;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .goBack {
+    width: 2rem;
+    height: 2rem;
+    z-index: 999;
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    >img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    animation: showHid 4s infinite linear 1s;
+  }
+  
+  @keyframes showHid {
+    0% {
+        opacity: 0.8;
+    }
+    50% {
+      opacity: 0.3;
+  }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+
+}
